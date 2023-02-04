@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		7FB023A3298E267300BBCD38 /* SwiftcoinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB023A2298E267300BBCD38 /* SwiftcoinApp.swift */; };
-		7FB023A5298E267300BBCD38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB023A4298E267300BBCD38 /* ContentView.swift */; };
 		7FB023A7298E267400BBCD38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FB023A6298E267400BBCD38 /* Assets.xcassets */; };
 		7FB023AA298E267400BBCD38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FB023A9298E267400BBCD38 /* Preview Assets.xcassets */; };
+		7FB023BA298E27B100BBCD38 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB023B9298E27B100BBCD38 /* HomeView.swift */; };
+		7FB023BC298E2A2100BBCD38 /* TopMoversView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB023BB298E2A2100BBCD38 /* TopMoversView.swift */; };
+		7FB023BE298E2A6300BBCD38 /* TopMoversItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB023BD298E2A6300BBCD38 /* TopMoversItemView.swift */; };
+		7FB023C0298E2FD100BBCD38 /* AllCoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB023BF298E2FD100BBCD38 /* AllCoinsView.swift */; };
+		7FB023C2298E2FE100BBCD38 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB023C1298E2FE100BBCD38 /* CoinRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7FB0239F298E267300BBCD38 /* Swiftcoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftcoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FB023A2298E267300BBCD38 /* SwiftcoinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftcoinApp.swift; sourceTree = "<group>"; };
-		7FB023A4298E267300BBCD38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7FB023A6298E267400BBCD38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FB023A9298E267400BBCD38 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7FB023B9298E27B100BBCD38 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7FB023BB298E2A2100BBCD38 /* TopMoversView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoversView.swift; sourceTree = "<group>"; };
+		7FB023BD298E2A6300BBCD38 /* TopMoversItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoversItemView.swift; sourceTree = "<group>"; };
+		7FB023BF298E2FD100BBCD38 /* AllCoinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCoinsView.swift; sourceTree = "<group>"; };
+		7FB023C1298E2FE100BBCD38 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,11 @@
 		7FB023A1298E267300BBCD38 /* Swiftcoin */ = {
 			isa = PBXGroup;
 			children = (
-				7FB023A2298E267300BBCD38 /* SwiftcoinApp.swift */,
-				7FB023A4298E267300BBCD38 /* ContentView.swift */,
+				7FB023B5298E270C00BBCD38 /* extentions */,
+				7FB023B4298E270700BBCD38 /* models */,
+				7FB023B3298E26F000BBCD38 /* app */,
+				7FB023B2298E26E600BBCD38 /* core */,
+				7FB023B1298E26DF00BBCD38 /* utils */,
 				7FB023A6298E267400BBCD38 /* Assets.xcassets */,
 				7FB023A8298E267400BBCD38 /* Preview Content */,
 			);
@@ -65,6 +76,71 @@
 				7FB023A9298E267400BBCD38 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7FB023B1298E26DF00BBCD38 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		7FB023B2298E26E600BBCD38 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				7FB023B6298E274700BBCD38 /* home */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		7FB023B3298E26F000BBCD38 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				7FB023A2298E267300BBCD38 /* SwiftcoinApp.swift */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		7FB023B4298E270700BBCD38 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		7FB023B5298E270C00BBCD38 /* extentions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = extentions;
+			sourceTree = "<group>";
+		};
+		7FB023B6298E274700BBCD38 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				7FB023B8298E278600BBCD38 /* viewModels */,
+				7FB023B7298E278100BBCD38 /* views */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		7FB023B7298E278100BBCD38 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				7FB023B9298E27B100BBCD38 /* HomeView.swift */,
+				7FB023BB298E2A2100BBCD38 /* TopMoversView.swift */,
+				7FB023BD298E2A6300BBCD38 /* TopMoversItemView.swift */,
+				7FB023BF298E2FD100BBCD38 /* AllCoinsView.swift */,
+				7FB023C1298E2FE100BBCD38 /* CoinRowView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		7FB023B8298E278600BBCD38 /* viewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +213,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FB023A5298E267300BBCD38 /* ContentView.swift in Sources */,
+				7FB023BC298E2A2100BBCD38 /* TopMoversView.swift in Sources */,
+				7FB023C0298E2FD100BBCD38 /* AllCoinsView.swift in Sources */,
 				7FB023A3298E267300BBCD38 /* SwiftcoinApp.swift in Sources */,
+				7FB023BA298E27B100BBCD38 /* HomeView.swift in Sources */,
+				7FB023C2298E2FE100BBCD38 /* CoinRowView.swift in Sources */,
+				7FB023BE298E2A6300BBCD38 /* TopMoversItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
