@@ -15,6 +15,8 @@
 		7FB023BE298E2A6300BBCD38 /* TopMoversItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB023BD298E2A6300BBCD38 /* TopMoversItemView.swift */; };
 		7FB023C0298E2FD100BBCD38 /* AllCoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB023BF298E2FD100BBCD38 /* AllCoinsView.swift */; };
 		7FB023C2298E2FE100BBCD38 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB023C1298E2FE100BBCD38 /* CoinRowView.swift */; };
+		7FB023C4298E507A00BBCD38 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB023C3298E507A00BBCD38 /* HomeViewModel.swift */; };
+		7FB023C6298E5D2100BBCD38 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB023C5298E5D2100BBCD38 /* Coin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		7FB023BD298E2A6300BBCD38 /* TopMoversItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoversItemView.swift; sourceTree = "<group>"; };
 		7FB023BF298E2FD100BBCD38 /* AllCoinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCoinsView.swift; sourceTree = "<group>"; };
 		7FB023C1298E2FE100BBCD38 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
+		7FB023C3298E507A00BBCD38 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		7FB023C5298E5D2100BBCD38 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,7 @@
 		7FB023B4298E270700BBCD38 /* models */ = {
 			isa = PBXGroup;
 			children = (
+				7FB023C5298E5D2100BBCD38 /* Coin.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 		7FB023B8298E278600BBCD38 /* viewModels */ = {
 			isa = PBXGroup;
 			children = (
+				7FB023C3298E507A00BBCD38 /* HomeViewModel.swift */,
 			);
 			path = viewModels;
 			sourceTree = "<group>";
@@ -215,9 +221,11 @@
 			files = (
 				7FB023BC298E2A2100BBCD38 /* TopMoversView.swift in Sources */,
 				7FB023C0298E2FD100BBCD38 /* AllCoinsView.swift in Sources */,
+				7FB023C4298E507A00BBCD38 /* HomeViewModel.swift in Sources */,
 				7FB023A3298E267300BBCD38 /* SwiftcoinApp.swift in Sources */,
 				7FB023BA298E27B100BBCD38 /* HomeView.swift in Sources */,
 				7FB023C2298E2FE100BBCD38 /* CoinRowView.swift in Sources */,
+				7FB023C6298E5D2100BBCD38 /* Coin.swift in Sources */,
 				7FB023BE298E2A6300BBCD38 /* TopMoversItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
